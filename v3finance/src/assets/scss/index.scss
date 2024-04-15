@@ -1,0 +1,12 @@
+@use './childs/one';
+@use './childs/two';
+@use './childs/three';
+@use './childs/four';
+@use './childs/five';
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
