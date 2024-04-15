@@ -1,5 +1,6 @@
 import { BrowserRouter,Route,Routes } from 'react-router-dom';
 import Home from './components/Home'
+import Testimonal from './components/Testimonal';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
           <Route path='/' element={<Home />} />
         </Routes>
       </BrowserRouter>
-
+   <Testimonal/>
     </div>
   );
 }
