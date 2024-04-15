@@ -189,7 +189,7 @@ export default function Nav() {
                         <div class="box">
                             <div class="content">
                                 <h2>02</h2>
-                                <i className="bi bi-lightning-fill m-2" style={{ "color": "#c00937", fontSize: "50px"  }}></i>
+                                <i className="bi bi-lightning-fill m-2" style={{ "color": "#c00937", fontSize: "50px" }}></i>
                                 <h4 className='mt-3'>Competitive Rates</h4>
                                 <p className='mt-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
                                 <a href="#">Read More</a>
@@ -201,7 +201,7 @@ export default function Nav() {
                         <div class="box">
                             <div class="content">
                                 <h2>03</h2>
-                                <i className="bi bi-credit-card  m-2" style={{ "color": "#c00937", fontSize: "50px"  }}></i>
+                                <i className="bi bi-credit-card  m-2" style={{ "color": "#c00937", fontSize: "50px" }}></i>
                                 <h4 className='mt-3' >Flexible Repayment</h4>
                                 <p className='mt-5'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A, ab!</p>
                                 <a href="#">Read More</a>
@@ -212,7 +212,7 @@ export default function Nav() {
                         <div class="box">
                             <div class="content">
                                 <h2>04</h2>
-                                <i class="bi bi-person-circle m-2" style={{ "color": "#c00937", fontSize: "50px"  }}></i>
+                                <i class="bi bi-person-circle m-2" style={{ "color": "#c00937", fontSize: "50px" }}></i>
                                 <h4 className='mt-3'>Expert Support</h4>
                                 <p className='mt-5'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, consectetur?</p>
                                 <a href="#">Read More</a>
@@ -223,7 +223,7 @@ export default function Nav() {
                         <div class="box">
                             <div class="content">
                                 <h2>05</h2>
-                                <i className="bi bi-joystick m-2" style={{ "color": "#c00937", fontSize: "50px"  }}></i>
+                                <i className="bi bi-joystick m-2" style={{ "color": "#c00937", fontSize: "50px" }}></i>
                                 <h4 className='mt-3'>Fast Approvals</h4>
                                 <p className='mt-5'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, consectetur?</p>
                                 <a href="#">Read More</a>
@@ -234,7 +234,7 @@ export default function Nav() {
                         <div class="box">
                             <div class="content">
                                 <h2>06</h2>
-                                <i className="bi bi-cart-plus  m-2" style={{ "color": "#c00937", fontSize: "50px"  }}></i>
+                                <i className="bi bi-cart-plus  m-2" style={{ "color": "#c00937", fontSize: "50px" }}></i>
                                 <h4 className='mt-3'>Business Focus</h4>
                                 <p className='mt-5'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, consectetur?</p>
                                 <a href="#">Read More</a>
