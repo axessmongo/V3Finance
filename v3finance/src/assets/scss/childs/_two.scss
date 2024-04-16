@@ -299,6 +299,9 @@
                 --bubble-float-duration: #{random_range(6s, 12s)};
                 --bubble-sway-duration: #{random_range(4s, 6s)};
                 --bubble-float-delay: #{random_range(0s, 4s)};
+
+
+                
                 --bubble-sway-delay: #{random_range(0s, 4s)};
                 --bubble-sway-type: #{sample($sway-type)};
             }
