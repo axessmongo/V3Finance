@@ -7,7 +7,7 @@ export default function Goal() {
   return (
     <>
 
-      <section className='our-nature overflow-hidden'>
+      <section className='our-nature'>
         <div className='area position-relative'>
           <ul class="circles">
             <li></li>
