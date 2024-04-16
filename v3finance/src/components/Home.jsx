@@ -568,16 +568,16 @@ export default function Home() {
         </div>
       </section>
       {/* clarification section */}.
-      <section className=" certi bg-success mt-5">
+      <section className=" certi  mt-5">
         <div className="container">
           <div className="row py-3 clarif">
-            <div className="col-md-8">
+            <div className="col-md-8 py-3">
               <div className="text-white text-center fs-4 fw-semibold py-4 ">
                 <p>Schedule an appointment with a financial advisor today!</p>
                 <p>We're here to help you achieve your financial dreams!</p>
               </div>
             </div>
-            <div className="col-md-4 align-items-center d-flex justify-content-center">
+            <div className="col-md-4 py-3 align-items-center d-flex justify-content-center">
               <div className=" ">
                 <button className="py-2 px-3">Contact Us</button>
               </div>
