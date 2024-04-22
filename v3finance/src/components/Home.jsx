@@ -183,7 +183,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
       </section>
       {/* 
             Why choose us section */}
@@ -945,6 +944,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+ 
       {/* footer section */}
       <section className='our-footer'>
         <footer className="footer-section">
