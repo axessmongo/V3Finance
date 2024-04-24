@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import Logo from '../assets/images/logo1.png'
-import { FaGlobe, FaAnchor, FaHourglassHalf, FaDatabase, FaUpload, FaCamera } from 'react-icons/fa';
 import ournature1 from '../assets/images/nature1.jpg'
 import ournature2 from '../assets/images/nature2.jpg'
 import financialbg from '../assets/images/Planing.gif'
@@ -18,7 +17,6 @@ import home from "../assets/images/home1.png";
 import gold from "../assets/images/asset.png";
 import agri from "../assets/images/agri1-.png";
 import car from "../assets/images/car (1).png";
-import Blog from './Blogs/Blog';
 export default function Home() {
   const [active, setActive] = useState(false)
   return (
@@ -83,6 +81,13 @@ export default function Home() {
                           id="home-nav">
                           Plans
                         </a>
+                      </li>
+                      <li class="nav-item">
+                        <Link to='/Blog' class="nav-link" 
+                          //  onClick={() => gotoTop('blogs')} 
+                          id="home-nav">
+                          Blogs
+                        </Link>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link"
@@ -185,57 +190,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* 
-            Why choose us section */}
-      {/* <section className='choose-us'>
-                <div className="feat bg-gray pt-5 pb-5">
-                    <div className="container">
-                        <div className="row">
-                            <div className="section-head col-sm-12">
-                                <h4><span className='text-dark heading4'>Why Choose</span> Us?</h4>
-                                <p className='heading3 text-white'>When you choose us, you'll feel the benefit of 10 years' experience of Web Development. Because we know the digital world and we know how to handle it. With working knowledge of online, SEO, and social media.</p>
-                            </div>
-                            <div className="col-lg-4 col-sm-6">
-                                <div className="item"> <span className="icon feature_box_col_one"><FaGlobe /></span>
-                                    <h6 className='heading3'>Modern Design</h6>
-                                    <p className='heading3'>We use the latest technology for the latest world because we know the demand of peoples.</p>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-sm-6">
-                                <div className="item"> <span className="icon feature_box_col_two"><FaAnchor /></span>
-                                    <h6 className='heading3'>Creative Design</h6>
-                                    <p className='heading3'>We are always creative and always listen to our customers to make the best design.</p>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-sm-6">
-                                <div className="item"> <span className="icon feature_box_col_three"><FaHourglassHalf /></span>
-                                    <h6 className='heading3'>24 x 7 User Support</h6>
-                                    <p className='heading3'>If our customer has any problem and any query always demand of peoples. happy to help them.</p>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-sm-6">
-                                <div className="item"> <span className="icon feature_box_col_four"><FaDatabase /></span>
-                                    <h6 className='heading3'>Business Growth</h6>
-                                    <p className='heading3'>Everyone wants to live on top of the mountain, but all the happiness and growth occur while you're climbing it.</p>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-sm-6">
-                                <div className="item"> <span className="icon feature_box_col_five"><FaUpload /></span>
-                                    <h6 className='heading3'>Market Strategy</h6>
-                                    <p className='heading3'>Holding back technology to preserve broken business models is like to veto combustion engine to protect their horseshoes.</p>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-sm-6">
-                                <div className="item"> <span className="icon feature_box_col_six"><FaCamera /></span>
-                                    <h6 className='heading3'>Affordable cost</h6>
-                                    <p className='heading3'>Love is a special word, and I use it only when I mean it. You say the word too much and it becomes cheap. word too much and it becomes cheap.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> */}
 
+      {/* Why choose us section */}
       <section className='choose-us mt-4 overflow-hidden text-center'>
         <h4 className='text-center mt-3'> Why choose us ?</h4>
         <div class="container choose d-flex flex-wrap justify-content-center">
@@ -313,8 +269,9 @@ export default function Home() {
         </div>
 
       </section>
+
       {/* Our Services section */}
-      <section className="service">
+      <section className="service mb-5">
         <h1 className="text-danger text-center">Our Services</h1>
 
         <div className="container  p-5 business-bg rounded-3">
@@ -382,10 +339,15 @@ export default function Home() {
         </div>
       </section>
 
-
-      {/* Bubble  animated section */}
-      <section className='bubble-bee bg-dark'>
-        <div className='bubbles'>
+      {/* Our Financial section */}
+      <section className='our-financial bg-dark'>
+        <div className="square">
+          <div className="cube"></div>
+          <div className="cube"></div>
+          <div className="cube"></div>
+          <div className="cube"></div>
+          <div className="cube"></div>
+          <div className="cube"></div>
 
           <div className='container'>
             <div className='row'>
@@ -423,56 +385,6 @@ export default function Home() {
             </div>
           </div>
 
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
         </div>
       </section>
 
@@ -494,8 +406,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* 
-      testimonal section */}
+
+      {/* testimonal section */}
       <section className='testimonial'>
         <div class="container testing text-center mt-4">
           <h4 className='heading4 text-dark'>Success <span className='heading4' style={{ color: "#900c3f" }}> Stories</span></h4>
@@ -690,9 +602,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* faq section */}
 
-      <section className='faq'>
+      {/* faq section */}
+      <section className='faq mb-5'>
         <div>
           <h4 className='nature-primary1 heading4 text-white text-center mt-4'><span style={{ color: "#900c3f" }}>FAQ</span> </h4>
 
@@ -946,9 +858,8 @@ export default function Home() {
         </div>
       </section>
 
-
       {/* Blogs section */}
-      <section className='blogs'>
+      {/* <section className='blogs'>
         <h2 className='text-center mt-4'> Our Blogs</h2>
         <div class="container">
           <div class="card">
@@ -984,12 +895,7 @@ export default function Home() {
             </figure>
           </div>
         </div>
-
-        <p class="disclaimer">All pictures were taken from <a class="disclaimer__link" href="https://unsplash.com/" target="_blank">Unsplash.</a></p>
-      </section>
-
-
-
+      </section> */}
 
       {/* footer section */}
       <section className='our-footer'>

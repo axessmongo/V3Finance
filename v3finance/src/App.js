@@ -5,6 +5,8 @@ import Services from './components/Services';
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Goal from './components/Goal'
+import Blog from './components/Blogs/Blog';
 
 
 
@@ -19,7 +21,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/' element={<Home/>} />
+          <Route path='/Blog' element={<Blog/>} />
+
         </Routes>
       </BrowserRouter>
 
