@@ -944,6 +944,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+   
+
  
       {/* footer section */}
       <section className='our-footer'>
