@@ -945,11 +945,17 @@ export default function Home() {
           </div>
         </div>
       </section>
+<<<<<<< HEAD
 
 
       {/* Blogs section */}
       <Blog />
 
+=======
+   
+
+ 
+>>>>>>> 3026cd238af69b8a8858529bc2cdb7a71b9354a1
       {/* footer section */}
       <section className='our-footer'>
         <footer className="footer-section">
