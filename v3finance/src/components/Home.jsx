@@ -18,6 +18,7 @@ import home from "../assets/images/home1.png";
 import gold from "../assets/images/asset.png";
 import agri from "../assets/images/agri1-.png";
 import car from "../assets/images/car (1).png";
+import Blog from './Blogs/Blog';
 export default function Home() {
   const [active, setActive] = useState(false)
   return (
@@ -944,7 +945,11 @@ export default function Home() {
           </div>
         </div>
       </section>
- 
+
+
+      {/* Blogs section */}
+      <Blog />
+
       {/* footer section */}
       <section className='our-footer'>
         <footer className="footer-section">
