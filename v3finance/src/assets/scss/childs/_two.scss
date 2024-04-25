@@ -530,17 +530,22 @@
     }
 }
 
+
+
 .blogs-page {
+    
     .blog-btn-home {
         position: relative;
-        top: -120px;
-        left: 650px;
+            top: -120px;
+            left: 650px;
     }
-    .btn-link{
+
+    .btn-link {
         text-decoration: none;
         color: white;
     }
-    .blog-btn{
+
+    .blog-btn {
         background-color: crimson;
         border: none;
         padding: 10px;
@@ -681,5 +686,48 @@
         padding-right: 5px;
         border: none;
     }
-}
 
+    @media only screen and (max-width: 767px) {
+        .blog-btn-home {
+            position: relative;
+            top: 0px; /* Adjust as needed */
+            left: 0px;
+            text-align: center; /* Center the button */
+        }
+    
+    
+        .blog-btn {
+            background-color: crimson;
+            border: none;
+            padding: 10px;
+            border-radius: 10px;
+            color: white;
+            text-decoration: none; /* Remove underline */
+        }
+    
+        .blog-btn:hover {
+            background-color: darkred;
+        }
+    
+        .featuredPropBox ul li {
+            width: 100%; /* Make list items take full width */
+        }
+    
+        .featuredPropBox ul li .fplogo {
+            width: 80%; /* Adjust logo width */
+        }
+    
+        .featuredPropBox ul li .fptext {
+            width: 90%; /* Adjust text width */
+        }
+    
+        .blog-bts {
+            background-color: blue;
+            color: white;
+            padding: 5px 10px; /* Adjust padding */
+            border: none;
+            margin-top: 10px; /* Add space between buttons */
+        }
+    }
+
+}
